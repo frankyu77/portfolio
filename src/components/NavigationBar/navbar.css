@@ -1,0 +1,57 @@
+.navbar {
+    height: 5rem;
+    width: 100vw;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.logo {
+    object-fit: cover;
+    padding-left: 1rem;
+    height: 5rem;
+    width: 4rem;
+}
+
+.navBarList {
+    margin: 2rem;
+    cursor: pointer;
+}
+
+.navBarList:hover {
+    color: white;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid white;
+}
+
+.navBarButton {
+    background: rgb(27,116,156);
+    color: rgb(48, 234, 255);
+
+    border: none;
+    border-radius: 1rem;
+    padding: 0rem 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navBarButton:hover {
+    background: rgb(19,86,127);
+    color: white;
+}
+
+.navBarImg {
+    object-fit: cover;
+    height: 2rem;
+    width: 2rem;
+    margin-right: 0.5rem;
+}
