@@ -1,7 +1,7 @@
 #intro {
     height: calc(100vh - 4rem);
     width: 100vw;
-    max-width: 80rem;
+    max-width: 75rem;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
@@ -32,8 +32,9 @@
 }
 
 .hello {
-    font-size: 1.75rem;
+    font-size: 2rem;
     font-weight: 400;
+    padding-bottom: .5rem;
 }
 
 .introName {
@@ -47,7 +48,7 @@
 
 }
 
-.button {
+.randomButton {
     background: white;
     margin: 1rem 0;
     border: none;
@@ -55,22 +56,22 @@
     padding: 0.5rem 2rem;
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 480px) {
     .introName {
         color: rgb(19,86,127);
     }
 
     .bear {
-        right: 0;
+        right: -10vw;
     }
-
+/* 
     .introContent {
         font-size: 10vw;
     }
 
     .hello {
         font-size: 4.5vw;
-    }
+    } */
 }
 
 @media screen and (max-width: 685px) {
