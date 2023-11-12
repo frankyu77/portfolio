@@ -10,12 +10,14 @@ const Navbar = () => {
             <img src={logo} alt='Logo' className='logo'/>
             {/* <div className='logo'>Frank Yu</div> */}
             <div className='navBarItem'>
-                <Link className='navBarList'>Home</Link>
-                <Link className='navBarList'>About</Link>
+                <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={1000} className='navBarList'>Home</Link>
+                <Link activeClass='active' to='about' spy={true} smooth={true} offset={-80} duration={1000} className='navBarList'>About</Link>
                 <Link className='navBarList'>Experience</Link>
                 <Link className='navBarList'>Projects</Link>
             </div>
-            <button className='navBarButton'>
+            <button className='navBarButton' onClick={() => {
+                document.getElementById('contact').scrollIntoView({behavior: 'smooth', duration: '1000'});
+            }}>
                 <img src={contactImg} alt='' className='navBarImg'/> Contact Me
             </button>
         </nav>

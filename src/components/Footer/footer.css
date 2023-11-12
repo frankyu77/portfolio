@@ -9,9 +9,19 @@
     text-align: center;
 
     padding-top: 6rem;
+    padding-bottom: 2.5rem;
     
 }
 .footer {
     font-weight: 300;
     font-size: small;
+    padding-bottom: .5rem;
 } 
+.iconLinks {
+    display: flex;
+    flex-wrap: wrap;
+} 
+.icon {
+    object-fit: cover;
+    height: 2rem;
+}
