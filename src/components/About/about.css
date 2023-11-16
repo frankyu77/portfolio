@@ -24,10 +24,10 @@
     padding-right: 2rem;
 }
 .school {
-    font-weight: 700;
+    font-weight: 800;
 }
 .degree {
-    font-weight: 700;
+    font-weight: 800;
 }
 .interests {
     font-weight: 300;
@@ -46,6 +46,14 @@
     padding-top: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
+}
+
+.spotifyLink, .resumeLink {
+    color: white;
+}
+.spotifyLink:hover, .resumeLink:hover {
+    font-weight: 500;
+    text-decoration: underline;
 }
 
 @media screen and (max-width:845px) {

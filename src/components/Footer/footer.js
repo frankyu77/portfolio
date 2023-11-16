@@ -12,9 +12,16 @@ const Footer = () => {
             </div>
             
             <div className='iconLinks'>
-                <img src={GithubIcon} alt='GitHub' className='icon'/>
-                <img src={LinkedInIcon} alt='LinkedIn' className='icon'/>
-                <img src={SpotifyIcon} alt='Spotify' className='icon'/>
+                <a href='https://github.com/frankyu77'>
+                    <img src={GithubIcon} alt='GitHub' className='icon'/>
+                </a>
+                <a href='https://linkedin.com/in/frankyu77'>
+                    <img src={LinkedInIcon} alt='LinkedIn' className='icon'/>
+                </a>
+                <a href='https://open.spotify.com/user/frankkaiwen.yu?si=a0eeeb02a7b84c51'>
+                    <img src={SpotifyIcon} alt='Spotify' className='icon'/>
+                </a>
+                
             </div>
         </section>
         
